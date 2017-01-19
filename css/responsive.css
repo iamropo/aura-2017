@@ -1,0 +1,649 @@
+@media all and (min-width: 360px) {
+	nav > #menu {
+		font-size: .9em;
+		font-weight: 500;
+	}
+
+	#festival-title {
+		font-size: 6.2em;
+	}
+
+	#current-year {
+		font-size: 2.1em;
+	}
+
+	#college {
+		font-size: .8em;
+	}
+/*-------------------Countdown Timer---------------*/
+	.block {
+	  margin: 0px 2px;
+	  font-size: .7em;
+	}
+
+	.digit{
+	  height: 20px;
+	  width: 20px;
+	  font-size: .9em;
+	}
+/*----------------------------------------------------*/	
+}
+
+@media all and (min-width: 412px) {
+
+	h3 {
+		font-size: 1.3em;
+	}
+
+	nav > #menu {
+		font-size: 1em;
+		font-weight: 500;
+	}
+
+	#festival-title {
+		font-size: 6.6em;
+	}
+
+	#current-year {
+		font-size: 2.6em;
+	}
+
+	#college {
+		font-size: 1.3em;
+	}
+
+	#countdown-timer {
+	  height: 70px;
+	}
+/*-------------------Countdown Timer---------------*/
+	.block {
+	  margin: 0px 2px;
+	  font-size: .8em;
+	}
+
+	.digit{
+	  margin: 0px 5px;
+	  height: 25px;
+	  width: 25px;
+	  font-size: .9em;
+	}
+	/*------------Gallery-------*/
+
+	#gallery {
+		padding: 10px 15px;
+	}	
+	#gallery a {
+		font-size: .8em;
+	}
+
+	/*-----------------Registration Form---------------*/
+	#register > form > span {
+		margin: 15px 0;
+	}
+
+	#register > form > span > input {
+		width: 55%;
+	}
+
+	footer {
+		font-size: .8em;
+	}
+
+}
+
+@media all and (min-width: 600px) and (min-height: 960px) {
+	h3 {
+		font-size: 1.5em;
+	}
+
+	nav > #menu {
+		font-size: 1.3em;
+		font-weight: 500;
+	}
+
+	#festival-title {
+		font-size: 6.8em;
+	}
+
+	#current-year {
+		font-size: 2.8em;
+	}
+
+	#college {
+		font-size: 1.5em;
+	}
+
+/*-------------------Countdown Timer---------------*/
+	.block {
+	  margin: 0px 4px;
+	  font-size: 1em;
+	}
+
+	.digit{
+	  margin: 0px 5px;
+	  height: 40px;
+	  width: 40px;
+	  font-size: 1.1em;
+	}
+	/*------------Event----------*/
+	.thead {
+		font-size: 1em;
+	}
+
+	.event {
+		font-size: 1em;
+	}
+
+	/*------------Gallery-------*/
+
+	#gallery {
+		padding: 10px 15px;
+	}
+
+	#gallery a {
+		font-size: .9em;
+	}
+
+	#gallery div img {
+		width: 120px;
+		height: 120px;
+	}
+
+	/*-----------------Registration Form---------------*/
+	#register > form > span {
+		margin: 15px 0;
+	}
+
+	#register > form > span > input {
+		width: 55%;
+	}
+
+	footer {
+		font-size: .8em;
+	}
+
+} 
+
+@media all and (min-width: 768px) {
+
+	nav > #menu {
+		font-size: 1.5em;
+		font-weight: 500;
+	}
+
+	#festival-title {
+		font-size: 7.4em;
+	}
+
+	#current-year {
+		font-size: 3.2em;
+		top: -4%;
+	}
+
+	#college {
+		font-size: 1.7em;
+		top: -4%;
+	}
+
+	h3 {
+		font-size: 1.9em;
+	}
+
+/*-------------------Countdown Timer---------------*/
+	.block {
+	  margin: 0px 5px;
+	  font-size: 1.2em;
+	}
+
+	.digit{
+	  margin: 0px 10px;
+	  height: 45px;
+	  width: 45px;
+	  font-size: 1.1em;
+	}
+	/*------------Event----------*/
+	table {
+		margin: 15px;
+		width: 40%;
+	}
+
+	.thead {
+		font-size: 1em;
+	}
+
+	.event {
+		font-size: 1em;
+	}
+
+	/*------------Gallery-------*/
+
+	#gallery {
+		padding: 10px 10%;
+	}
+
+	#gallery a {
+		font-size: .9em;
+	}
+
+	#gallery div img {
+		width: 120px;
+		height: 120px;
+	}
+
+	/*-----------------Registration Form---------------*/
+	#register > form {
+		width: 80%;
+	}
+
+	#register > form > span {
+		margin: 15px 0;
+	}
+
+	#register > form > span > input {
+		width: 55%;
+		height: 30px;
+	}
+
+	#register > form > button {
+		height: 30px;
+	}
+
+	footer {
+		font-size: .8em;
+	}
+
+}
+
+@media all and (min-width: 1024px) and (min-height: 960px){
+	nav > #menu {
+		font-size: 1.5em;
+		font-weight: 500;
+	}
+
+	#festival-title {
+		font-size: 10em;
+	}
+
+	#current-year {
+		font-size: 4em;
+		top: -4%;
+	}
+
+	#college {
+		font-size: 2.1em;
+		top: -4%;
+	}
+
+	h3 {
+		font-size: 2.1em;
+	}
+
+/*-------------------Countdown Timer---------------*/
+	#countdown-timer {
+		height: 100px;
+	}
+	.block {
+	  margin: 0px 5px;
+	  font-size: 1.4em;
+	}
+
+	.digit{
+	  margin: 0px 10px;
+	  height: 50px;
+	  width: 50px;
+	  font-size: 1.1em;
+	}
+
+	/*------------Gallery-------*/
+
+	#gallery {
+		padding: 10px 15px;
+	}
+
+	#gallery a {
+		font-size: .9em;
+	}
+
+	#gallery div img {
+		width: 120px;
+		height: 120px;
+	}
+
+	/*-----------------Registration Form---------------*/
+	#register > form {
+		width: 50%;
+	}
+	#register > form > span {
+		margin: 15px 0;
+	}
+
+	#register > form > span > input {
+		width: 55%;
+		height: 40px;
+	}
+
+	#register > form > button {
+		height: 40px;
+	}
+
+	footer {
+		font-size: .8em;
+	}
+}
+
+@media all and (min-width: 1024px) {
+
+	nav > #menu {
+		width: 80%;
+	}
+
+	table {
+		margin: 15px;
+		width: 35%;
+	}
+
+	.thead,.event {
+		font-size: 1em;
+		height: 50px;
+	}
+
+	#gallery {
+		padding: 10px 15%;
+	}
+
+	#gallery a {
+		font-size: .9em;
+	}	
+
+	#gallery div img {
+		width: 180px;
+		height: 180px;
+	}
+
+	.thead {
+		font-size: 1.3em;
+	}
+
+	/*-----------------Registration Form---------------*/
+	#register {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column;
+	}
+	#register > form {
+		width: 70%;
+	}
+	#register > form > span {
+		margin: 15px 0;
+	}
+
+	#register > form > span > input {
+		width: 55%;
+		height: 40px;
+		font-size: 1.4em;
+	}
+
+	#register > form > button {
+		height: 40px;
+	}
+
+	footer {
+		font-size: .8em;
+	}
+}
+
+@media all and (min-width: 1280px) and (min-height: 800px) {
+	nav > #menu {
+		width: 70%;
+	}
+
+	#festival-title {
+		font-size: 10em;
+	}
+
+	#current-year {
+		font-size: 4em;
+		top: -4%;
+	}
+
+	#college {
+		font-size: 2.1em;
+		top: -4%;
+	}
+
+	h3 {
+		font-size: 2.1em;
+	}
+
+/*-------------------Countdown Timer---------------*/
+	#countdown-timer {
+		height: 100px;
+	}
+	.block {
+	  margin: 0px 5px;
+	  font-size: 1.4em;
+	}
+
+	.digit{
+	  margin: 0px 10px;
+	  height: 50px;
+	  width: 50px;
+	}
+
+	/*------------Gallery-------*/
+
+	#gallery a {
+		font-size: .9em;
+	}
+
+	/*-----------------Registration Form---------------*/
+	#register > form {
+		width: 50%;
+	}
+	#register > form > span {
+		margin: 15px 0;
+	}
+
+	#register > form > span > input {
+		width: 55%;
+		height: 40px;
+	}
+
+	#register > form > button {
+		height: 40px;
+	}
+
+	footer {
+		font-size: .8em;
+	}
+}
+
+
+@media all and (min-width: 1366px) {
+		nav > #menu {
+			width: 50%;
+			font-size: 1.2em;
+		}
+
+		#festival-title {
+			font-size: 10em;
+		}
+
+		#current-year {
+			font-size: 4em;
+			top: -5%;
+		}
+
+		#college {
+			font-size: 1.8em;
+			top: -5%;
+		}
+
+		h3 {
+			font-size: 2.1em;
+		}
+
+	/*-------------------Countdown Timer---------------*/
+		#countdown-timer {
+			height: 100px;
+		}
+		.block {
+		  margin: 0px 5px;
+		  font-size: 1.4em;
+		}
+
+		.digit {
+		  margin: 0px 10px;
+		  height: 50px;
+		  width: 50px;
+		  font-size: 1.1em;
+		}
+
+		/*------------Gallery-------*/
+
+		#gallery a {
+			font-size: .9em;
+		}
+
+		/*-----------------Registration Form---------------*/
+		#register > form {
+			width: 50%;
+		}
+		#register > form > span {
+			margin: 15px 0;
+		}
+
+		#register > form > span > input {
+			width: 55%;
+			height: 40px;
+		}
+
+		#register > form > button {
+			height: 40px;
+		}
+
+		footer {
+			font-size: .8em;
+		}	
+} 
+
+@media all and (min-width: 1440px) {
+	table {
+		margin: 20px;
+		width: 35%;
+	}
+}
+
+/*Kindle Fire*/
+@media all and (min-width: 1600px) {
+
+	nav > #menu {
+		width: 45%;
+		font-size: 2em;
+	}
+
+	#festival-title {
+		font-size: 20em;
+	}
+
+	#current-year {
+		font-size: 7em;
+		top: -5%;
+	}
+
+	#college {
+		font-size: 3em;
+		top: -5%;
+	}
+
+	#countdown-timer {
+		height: 200px;
+	}
+
+	.block {
+	  margin: 0px 10px;
+	  font-size: 2.4em;
+	}
+
+	.digit {
+	  margin: 0px 20px;
+	  height: 100px;
+	  width: 100px;
+	  font-size: 1.3em;
+	}
+	
+	h3 {
+		font-size: 3em;
+	}
+
+	table {
+		margin: 15px;
+		width: 35%;
+	}
+
+	.thead,.event {
+		font-size: 1.3em;
+		height: 60px;
+	}
+
+	#gallery {
+		padding: 10px 15%;
+	}
+
+	#gallery a {
+		font-size: .9em;
+	}	
+
+	#gallery div img {
+		width: 180px;
+		height: 180px;
+	}
+
+	.thead {
+		font-size: 1.3em;
+	}
+
+	/*-----------------Registration Form---------------*/
+	#register {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column;
+	}
+	#register > form {
+		width: 70%;
+	}
+	#register > form > span {
+		margin: 15px 0;
+	}
+
+	#register > form > span > input {
+		width: 55%;
+		height: 40px;
+		font-size: 1.4em;
+	}
+
+	#register > form > button {
+		height: 40px;
+	}
+
+	footer {
+		font-size: .8em;
+	}
+
+}
+
+
+@media all and (min-height: 1600px) {
+	#events, #gallery, #register {
+		padding: 110px 15%;
+		min-height: 30%;
+	}
+}
+
+@media all and (min-width: 2000px) {
+	#register > form {
+		width: 50%;
+	}
+}
