@@ -79,7 +79,6 @@
 		<tr><td class="event">Best Manager</td></tr>
 		<tr><td class="event">Business Quiz</td></tr>
 		<tr><td class="event">Best Salesman</td></tr>
-		<tr><td class="event">Business Essay</td></tr>
 		<tr><td class="event">Advertisement</td></tr>
 	</table>
 
@@ -159,11 +158,38 @@
 	<form action="">
 		<span>Name<input type="text" required="required"></span>
 		<span>College<input type="text" required="required"></span>
-		<span>Department<input type="text"></span>
-		<span>Event<input type="text"></span>
+		<span>Department<input type="text" list="departments"></span>
+		<span>Event<input type="text" list="management-events"></span>
 		<button>Submit</button>
 	</form>
 </div>
+
+<datalist id="departments">
+  <option value="Management">
+  <option value="Culturals">
+  <option value="I.T">
+  <option value="Journalism">
+</datalist>
+
+<datalist id="management-events">
+	<option value="Management">
+	<option value="Best Manager">
+	<option value="Business Quiz">
+	<option value="Advertisement">
+</datalist>
+
+<datalist id="-events">
+	
+</datalist>
+
+<datalist id="-events">
+	
+</datalist>
+
+<datalist id="-events">
+	
+</datalist>
+
 
 <footer>
 <!-- 	<div id="sponsors">
