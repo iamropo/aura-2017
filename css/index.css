@@ -269,7 +269,7 @@ table {
 }
 
 #register > form > button {
-	width: 10%;
+	min-width: 10%;
 	float: right;
 	color: #ffffff;
 	background-color: #323232;
@@ -294,15 +294,13 @@ footer > #contact {
 	justify-content: space-between;
 }
 
-#address {
+#address, .contact {
 	width: 50%;
-}
-
-.contact {
-	width: 50%;
+	height: 100%
 }
 
 footer > #contact ul {
+	height: 100%;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -310,8 +308,19 @@ footer > #contact ul {
 
 footer > #contact ul > li:first-child {
 	font-weight: 500;
+	margin-left: 20px;
+}
+
+.phone-number {
+	text-align: right;
+}
+
+
+#social-links {
+	margin-top: 10px;
 }
 
 #social-links > a {
-	margin-right: 10px;
+	margin-left: 10px;
+	float: right;
 }
