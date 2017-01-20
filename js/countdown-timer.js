@@ -17,8 +17,6 @@
       var days = Math.floor(diff/(1000*60*60*24)%30.5);
       var months = Math.floor(diff/(1000*60*60*24*30.5)%12);
 
-      console.log( ('0'+ months).slice(-2))
-
       document.querySelector("#months").innerText = ('0'+ months).slice(-2);
       document.querySelector("#days").innerText = ('0'+days).slice(-2);
       document.querySelector("#hours").innerText = ('0'+hours).slice(-2);

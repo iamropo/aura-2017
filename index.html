@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<nav>
+<!-- <nav>
 	<ul id="menu">
 		<li><a href="#home">Home</a></li>
 		<li><a href="#gallery">Gallery</a></li>
@@ -19,7 +19,7 @@
 		<li><a href="#register">Register</a></li>
 		<li><a href="#contact">Contact</a></li>
 	</ul>
-</nav>
+</nav> -->
 
 <div id="main">
 	
@@ -60,40 +60,51 @@
 
 </div>
 
+<nav>
+	<ul id="menu">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#register">Register</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+
 <div class="margined-section" id="events">
 
 	<h3>Events</h3>
 
 	<table class="event-category">
 		<tr><td class="thead">Management</td></tr>
-		<tr><td class="event">Event 1</td></tr>
-		<tr><td class="event">Event 2</td></tr>
-		<tr><td class="event">Event 3</td></tr>
-		<tr><td class="event">Event 4</td></tr>
+		<tr><td class="event">Best Manager</td></tr>
+		<tr><td class="event">Business Quiz</td></tr>
+		<tr><td class="event">Best Salesman</td></tr>
+		<tr><td class="event">Business Essay</td></tr>
+		<tr><td class="event">Advertisement</td></tr>
 	</table>
 
 	<table class="event-category">
 		<tr><td class="thead">Culturals</td></tr>
-		<tr><td class="event">Event 1</td></tr>
-		<tr><td class="event">Event 2</td></tr>
-		<tr><td class="event">Event 3</td></tr>
-		<tr><td class="event">Event 4</td></tr>
+		<tr><td class="event">Battle of the Bands</td></tr>
+		<tr><td class="event">Solo Dance</td></tr>
+		<tr><td class="event">Group Dance</td></tr>
+		<tr><td class="event">Solo Singing</td></tr>
 	</table>
 	
 	<table class="event-category">
 		<tr><td class="thead">I.T</td></thead>
-		<tr><td class="event">Event 1</td></tr>
-		<tr><td class="event">Event 2</td></tr>
-		<tr><td class="event">Event 3</td></tr>
-		<tr><td class="event">Event 4</td></tr>
+		<tr><td class="event">Coding and Debugging</td></tr>
+		<tr><td class="event">Web Design</td></tr>
+		<tr><td class="event">Quiz</td></tr>
+		<tr><td class="event">Blazing Keyboard</td></tr>
 	</table>
 
 	<table class="event-category">
 		<tr><td class="thead">Journalism</td></tr>
-		<tr><td class="event">Event 1</td></tr>
-		<tr><td class="event">Event 2</td></tr>
-		<tr><td class="event">Event 3</td></tr>
-		<tr><td class="event">Event 4</td></tr>
+		<tr><td class="event">Photography</td></tr>
+		<tr><td class="event">Film Making</td></tr>
+		<tr><td class="event">Mad Ads</td></tr>
+		<tr><td class="event">Report Writing</td></tr>
 	</table>
 </div>
 
@@ -106,17 +117,9 @@
 		<option value="2014">2014</option>
 	</select>
 
-	<div id="aura-2016">
+	<div class="active-gallery" id="aura-2016-gallery">
 		<img src="" alt="">
 		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-	</div>
-
-	<div id="aura-2015">
 		<img src="" alt="">
 		<img src="" alt="">
 		<img src="" alt="">
@@ -126,7 +129,21 @@
 		<img src="" alt="">
 	</div>
 
-	<div id="aura-2014">
+	<div class="inactive-gallery" id="aura-2015-gallery">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+	</div>
+
+	<div class="inactive-gallery" id="aura-2014-gallery">
+		<img src="" alt="">
+		<img src="" alt="">
 		<img src="" alt="">
 		<img src="" alt="">
 		<img src="" alt="">
@@ -176,7 +193,12 @@
 		</div>
 	</div>
 </footer>
+<div id="heels">
+	<!--Equals Height of Navigation Bar-->
+</div>
 <script src="js/countdown-timer.js"></script>
+<script src="js/navigation-bar.js"></script>
+<script src="js/gallery-toggle.js"></script>
 <script src="js/fantasy.js"></script>
 </body>
 </html>
