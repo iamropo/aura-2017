@@ -184,6 +184,10 @@ table {
 	width: 100%;
 	min-height: 50%;
 	padding: 10px 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 #gallery > h3 {
@@ -193,29 +197,19 @@ table {
 	text-align: center;
 }
 
+#gallery select {
+	background-color: #323232;
+	border: 1px solid #323232;
+	color: #ffffff;
+	padding: 1px;
+}
+
 #gallery div {
 	width: 100%;
 	display: none;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-}
-
-#gallery a {
-	width: 100%;
-	color: #000000;
-	font-size: .7em;
-	font-weight: 500;
-	display: flex;
-}
-
-#gallery a span {
-	text-decoration: underline;
-}
-
-#gallery a i {
-	color: #000000;
-	margin-left: 5px;
 }
 
 #gallery div img {
