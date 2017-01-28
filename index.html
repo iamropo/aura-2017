@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AURA | 2017</title>
+		<meta name="author" content="Hage Ropo/ iamropo@gmail.com/ twitter/iamropo github.com/iamropo">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#191919">
+	<link rel="icon" href="images/logo.png" type="image/png">
+	<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon"> 
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/countdown-timer.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/sponsors-and-partners.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/responsive-main-height.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+</head>
+<body>
+<!-- 
+	DESIGNED AND DEVELOPED BY HAGE ROPO/ iamropo@gmail.com
+ -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="http://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+<script src="http://stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
+<script src="http://stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
+
+<div id="main">
+	
+	<div id="festival-title">AURA</div>
+<!-- 	<div id="year">2017</div>
+	<div id="caption">"Be Limitless"</div> -->
+	
+	<canvas id="canvas-1"></canvas>
+
+	<div id="countdown-timer">
+		<div id="timer">
+		  
+		  <div class="block">
+		    <span class="digit" id="days"></span>
+		    Days
+		  </div>
+		  
+		  <div class="block">
+		    <span class="digit" id="hours"></span>
+		    Hours
+		  </div>
+		  
+		  <div class="block">
+		    <span class="digit" id="minutes"></span>
+		    Minutes
+		  </div>
+		  
+		  <div class="block">
+		    <span class="digit" id="seconds"></span>
+		    Seconds
+		  </div>
+		</div>
+	</div>
+
+</div>
+
+ <nav>
+	<ul id="menu">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#register">Register</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+
+<div class="margined-section" id="events">
+	
+	<canvas id="canvas-2">	</canvas>
+
+	<h3>Events</h3>
+
+	<table class="event-category">
+		<tr><td class="thead">CULTURALS</td></tr>
+		<tr><td class="event">Battle of the Bands</td></tr>
+		<tr><td class="event">Beat Boxing</td></tr>
+		<tr><td class="event">Fashion Show</td></tr>
+		<tr><td class="event">Mad Ads</td></tr>
+		<tr><td class="event">Mime</td></tr>
+		<tr><td class="event">Solo &amp; Group Dance</td></tr>
+		<tr><td class="event">Solo Singing</td></tr>
+	</table>
+	
+	<table class="event-category">
+		<tr><td class="thead">OPEN EVENTS</td></tr>
+		<tr><td class="event">Arm Wrestling</td></tr>
+		<tr><td class="event">Face Painting</td></tr>
+		<tr><td class="event">Find X</td></tr>
+		<tr><td class="event">Hogathon</td></tr>
+		<tr><td class="event">Just A Minute</td></tr>
+		<tr><td class="event">Stand Up Comedy</td></tr>
+		<tr><td class="event">Tattoo Making</td></tr>
+	</table>
+
+	<table class="event-category">
+		<tr><td class="thead">MANAGEMENT</td></tr>
+		<tr><td class="event">Best Manager</td></tr>
+		<tr><td class="event">Brand Race</td></tr>
+		<tr><td class="event">Business Quiz</td></tr>
+		<tr><td class="event">Finance</td></tr>
+		<tr><td class="event">Human Resource</td></tr>
+		<tr><td class="event">Marketing</td></tr>
+	</table>
+
+
+	<table class="event-category">
+		<tr><td class="thead">I.T &amp; JOURNALISM</td></tr>
+		<tr><td class="event">Cosplay</td></tr>
+		<tr><td class="event">Debugging</td></tr>
+		<tr><td class="event">Launchpad</td></tr>
+		<tr><td class="event">Photo Journalism</td></tr>
+		<tr><td class="event">Story Telling</td></tr>
+		<tr><td class="event">Web Designing</td></tr>
+	</table>
+
+</div>
+
+		<!-- 
+		////////////SLIDER////////////
+	 -->
+<div id="slider-container">
+	<div id="control">
+		<span>Close</span>
+	</div>
+	<div id="slider">
+	  <button class="control_next"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+	  <button class="control_prev"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button>
+	  <ul>
+	    <li></li>
+	    <li></li>
+	    <li></li>
+	    <li></li>
+	    <li></li>
+	    <li></li>
+	    <li></li>
+	    <li></li>
+	    <li></li>
+	  </ul>  
+	</div>
+
+<!-- 	<div class="slider_option">
+	  <input type="checkbox" id="checkbox">
+	  <label for="checkbox">Autoplay Slider</label>
+	</div>  -->
+</div>
+	<!--
+	/////////////////////////////////////// 
+	 -->
+
+<div class="margined-section" id="gallery">
+	
+	<h3>Highlights</h3>
+	
+	<select name="gallery-year" id="gallery-year">
+		<option value="2016">2016</option>
+		<option value="2015">2015</option>
+		<option value="2014">2014</option>
+	</select>
+
+	<div class="active-gallery gallery" id="aura-2016-gallery">
+		<div><img src="final/1.jpg" alt=""></div>
+		<div><img src="final/2.jpg" alt=""></div>
+		<div><img src="final/3.jpg" alt=""></div>
+		<div><img src="final/4.jpg" alt=""></div>
+		<div><img src="final/5.jpg" alt=""></div>
+		<div><img src="final/6.jpg" alt=""></div>
+		<div><img src="final/7.jpg" alt=""></div>
+		<div><img src="final/8.jpg" alt=""></div>
+		<div><img src="final/9.jpg" alt=""></div>
+	</div>
+
+	<div class="inactive-gallery gallery" id="aura-2015-gallery">
+		<div><img src="final-15/1.jpg" alt=""></div>
+		<div><img src="final-15/2.jpg" alt=""></div>
+		<div><img src="final-15/3.jpg" alt=""></div>
+		<div><img src="final-15/4.jpg" alt=""></div>
+		<div><img src="final-15/5.jpg" alt=""></div>
+		<div><img src="final-15/6.jpg" alt=""></div>
+		<div><img src="final-15/7.jpg" alt=""></div>
+		<div><img src="final-15/8.jpg" alt=""></div>
+		<div><img src="final-15/9.jpg" alt=""></div>
+	</div>
+
+	<div class="inactive-gallery gallery" id="aura-2014-gallery">
+		<div><img src="final-14/1.jpg" alt=""></div>
+		<div><img src="final-14/2.jpg" alt=""></div>
+		<div><img src="final-14/3.jpg" alt=""></div>
+		<div><img src="final-14/4.jpg" alt=""></div>
+		<div><img src="final-14/5.jpg" alt=""></div>
+		<div><img src="final-14/6.jpg" alt=""></div>
+		<div><img src="final-14/7.jpg" alt=""></div>
+		<div><img src="final-14/8.jpg" alt=""></div>
+		<div><img src="final-14/9.jpg" alt=""></div>
+	</div>
+</div>
+<!-- ///////////////////////////// FORM //////////////////////////////////////-->
+<div class="margined-section" id="register">	
+	<h3>Register</h3>
+	<form action="">
+		<span>Name<input type="text" required="required"></span>
+		<span>College<input type="text" required="required"></span>
+		<span>Department<input type="text"></span>
+		<span>Event<input type="text"></span>
+		<button>Submit</button>
+	</form>
+</div>
+<!-- ///////////////////////////////////////////////////// -->
+<!-- <div class="margined-section" id="sponsors-and-partners">
+	
+	<h4>Our Sponsors &amp; Partners</h4>
+	
+	<div id="sponsors">
+
+		<div class="sponsor" id="aircel-logo">
+			<a href=""><img src="" alt="" class="sponsor-logo"></a>
+		</div>
+
+		<div class="sponsor" id="tvs-logo">
+			<a href=""><img src="" alt="" class="sponsor-logo" ></a>
+		</div>
+	
+	</div>
+
+	<div id="partners">
+		
+		<div class="partner" id="beverage-partner">
+			<a href=""><img src="" class="partner-logo"></a>
+			<div class="role">Beverage Partner</div>
+		</div>
+
+		<div class="partner" id="online-media-partner">		 
+			<a href=""><img src="" alt="" class="partner-logo"></a>
+		  <div class="role">Online Media Partner</div>
+		</div>
+
+		<div class="partner" id="print-partner">
+			<a href=""><img src="" alt="" class="partner-logo">
+			</a>	
+		  <div class="role">Print Partner</div>
+		</div>
+
+		<div class="partner" id="gaming-partner">		
+			<a href=""><img src="" alt="" class="partner-logo"></a>
+		  <div class="role">Gaming Partner</div>
+		</div>
+
+		<div class="partner" id="outdoor-transit-partner">
+			<a href=""><img src="" alt="" class="partner-logo"></a>
+		  <div class="role">Outdoor Transit Partner</div>
+		</div>
+
+		<div class="partner" id="radio-partner">		
+			<a href="http://www.radiomirchi.com/"><img src="" alt="" class="partner-logo"></a>
+		  <div class="role">Radio Partner</div>
+		</div>
+
+
+		<div class="partner" id="food-partner">		
+			<a href=""><img src="" alt="" class="partner-logo"></a>
+		  <div class="role">Food Partner</div>
+		</div>
+
+	</div> 
+</div>-->
+
+<footer>
+	<div id="address">
+		IFIM College <br>
+		8 P &amp; 9 P Kiadb Industrial Area,<br>
+		2ND PH Electronic City 560100,<br>
+		Bengaluru, Karnataka<br>
+	</div>
+	<div id="contact">
+		<ul>
+			<li>Contacts:</li>
+			<li class="phone-number">Siddarth: +91-7406682809</li>
+<!-- 			<li class="phone-number">Abhilash: +91-</li> -->
+
+			<li id="social-links">
+				<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="mailto:aura2017@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+			</li>
+
+		</ul>
+	</div>
+</footer>
+<div id="heels">
+	<!--Equals Height of Navigation Bar -->
+</div>
+<script src="js/countdown-timer.js"></script>
+<script src="js/navigation-bar.js"></script>
+<script src="js/gallery-toggle.js"></script>
+<script src="js/particle-network.js"></script>
+<script src="js/slide-manager.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>

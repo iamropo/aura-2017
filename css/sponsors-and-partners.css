@@ -1,0 +1,53 @@
+#sponsors-and-partners {
+	display: none;
+	color: #323232;
+	padding: 10px 5% 5% 5%;	
+}
+
+#sponsors {
+	width: 100%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sponsor {
+	width: 100px;
+	margin: 0px 15px;
+}
+
+.sponsor-logo {
+	width: 100%;
+}
+
+/*------------------Partners------------*/
+
+#partners {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+.partner {
+	width: 60px;
+	margin: 10px 10px;
+	display: flex;
+	flex-flow: column;
+}
+
+.partner-logo {
+	width: 100%;
+	margin-bottom: 1px
+}
+
+.role {
+	width: 100%;
+	font-size: .5em;
+	font-weight: bold;
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+}

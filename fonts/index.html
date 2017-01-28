@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AURA | 2017</title>
+		<meta name="author" content="Hage Ropo/ iamropo@gmail.com/ twitter/iamropo github.com/iamropo">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#191919">
+	<link rel="shortcut icon" href="images/logo.png" type="image/png" />
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/countdown-timer.css">
+<!-- 	<link rel="stylesheet" href="css/footer.css">
+ -->	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+</head>
+<body>
+
+<!-- 
+	DESIGNED AND DEVELOPED BY HAGE ROPO/ iamropo@gmail.com
+ -->
+
+<!-- <nav>
+	<ul id="menu">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#register">Register</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav> -->
+
+<div id="main">
+	
+	<div id="festival-title">AURA</div>
+<!-- 	<div id="current-year">2017</div>
+	<div id="college">IFIM College</div> -->
+
+	<canvas></canvas>
+
+	<div id="countdown-timer">
+		<div id="timer">
+			<div class="block">
+		    <span class="digit" id="months"></span>
+		    Month
+		  </div>
+		  
+		  <div class="block">
+		    <span class="digit" id="days"></span>
+		    Days
+		  </div>
+		  
+		  <div class="block">
+		    <span class="digit" id="hours"></span>
+		    Hours
+		  </div>
+		  
+		  <div class="block">
+		    <span class="digit" id="minutes"></span>
+		    Minutes
+		  </div>
+		  
+		  <div class="block">
+		    <span class="digit" id="seconds"></span>
+		    Seconds
+		  </div>
+		</div>
+	</div>
+
+</div>
+
+<!-- 
+	I LOVE CATS. :) -AUTHOR
+	FOLLOWING CONTENT TO BE UPDATED:
+ -->
+
+<!-- <nav>
+	<ul id="menu">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#register">Register</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+
+<div class="margined-section" id="events">
+
+	<h3>Events</h3>
+
+	<table class="event-category">
+		<tr><td class="thead">Management</td></tr>
+		<tr><td class="event">Best Manager</td></tr>
+		<tr><td class="event">Business Quiz</td></tr>
+		<tr><td class="event">Best Salesman</td></tr>
+		<tr><td class="event">Advertisement</td></tr>
+	</table>
+
+	<table class="event-category">
+		<tr><td class="thead">Culturals</td></tr>
+		<tr><td class="event">Battle of the Bands</td></tr>
+		<tr><td class="event">Solo Dance</td></tr>
+		<tr><td class="event">Group Dance</td></tr>
+		<tr><td class="event">Solo Singing</td></tr>
+	</table>
+	
+	<table class="event-category">
+		<tr><td class="thead">I.T</td></thead>
+		<tr><td class="event">Coding and Debugging</td></tr>
+		<tr><td class="event">Web Design</td></tr>
+		<tr><td class="event">Quiz</td></tr>
+		<tr><td class="event">Blazing Keyboard</td></tr>
+	</table>
+
+	<table class="event-category">
+		<tr><td class="thead">Journalism</td></tr>
+		<tr><td class="event">Photography</td></tr>
+		<tr><td class="event">Film Making</td></tr>
+		<tr><td class="event">Mad Ads</td></tr>
+		<tr><td class="event">Report Writing</td></tr>
+	</table>
+</div>
+
+<div class="margined-section" id="gallery">
+	<h3>Gallery</h3>
+	
+	<select name="gallery-year" id="">
+		<option value="2016">2016</option>
+		<option value="2015">2015</option>
+		<option value="2014">2014</option>
+	</select>
+
+	<div class="active-gallery" id="aura-2016-gallery">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+	</div>
+
+	<div class="inactive-gallery" id="aura-2015-gallery">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+	</div>
+
+	<div class="inactive-gallery" id="aura-2014-gallery">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+	</div>
+</div>
+
+<div class="margined-section" id="register">	
+	<h3>Register</h3>
+	<form action="">
+		<span>Name<input type="text" required="required"></span>
+		<span>College<input type="text" required="required"></span>
+		<span>Department<input type="text" list="departments"></span>
+		<span>Event<input type="text" list="management-events"></span>
+		<button>Submit</button>
+	</form>
+</div>
+
+<datalist id="departments">
+  <option value="Management">
+  <option value="Culturals">
+  <option value="I.T">
+  <option value="Journalism">
+</datalist>
+
+<datalist id="management-events">
+	<option value="Management">
+	<option value="Best Manager">
+	<option value="Business Quiz">
+	<option value="Advertisement">
+</datalist>
+
+<datalist id="cultural-events">
+	
+</datalist>
+
+<datalist id="it-events">
+	
+</datalist>
+
+<datalist id="journalism-events">
+	
+</datalist>
+
+
+<footer>
+	<div id="address">
+		IFIM College <br>
+		8 P & 9 P Kiadb Industrial Area,<br>
+		2ND PH Electronic City 560100,<br>
+		Bengaluru, Karnataka<br>
+	</div>
+	<div id="contact">
+		<ul>
+			<li>Contacts:</li>
+			<li class="phone-number">Person: +91-1234567890</li>
+			<li class="phone-number">Person: +91-1234567890</li>
+
+			<li id="social-links">
+				<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="mailto:aura2017@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+			</li>
+
+		</ul>
+	</div>
+</footer>
+<div id="heels">
+	<!-Equals Height of Navigation Bar-->
+<!--</div> -->
+<script src="js/countdown-timer.js"></script>
+<!-- <script src="js/navigation-bar.js"></script>
+<script src="js/gallery-toggle.js"></script> -->
+<script src="js/fantasy.js"></script>
+
+</body>
+</html>
