@@ -1,32 +1,22 @@
 var navigationBar = document.querySelector('nav')
 var links = document.querySelectorAll('#menu a')
 
-function applyChanges (collection, color, scroll) {
+function applyColor (collection, color) {
 	Array.prototype.forEach.call(collection, function (element, index) {
-		if (color) {
-			element.style.color = color;
-		} else if (scroll && index !== 0) {
-			element.addEventListener('click', function () {
-				window.scrollBy({
-					top: navigationBar.offsetHeight,
-					left: 0,
-					behavior: 'smooth'
-				})
-			})
-		}
+		element.style.color = color;
 	})
 }
 
 function styleOverMain () {
 	navigationBar.style.backgroundColor = '#bfd8d2'
 	navigationBar.style.borderBottom = '1px solid #abc2b2'
-	applyChanges(links, '#df744a')	
+	applyColor(links, '#df744a')	
 }
 
 function styleUnderMain () {
 	navigationBar.style.backgroundColor = '#a4bf69'
 	navigationBar.style.borderBottom = 'none'
-	applyChanges(links, '#1a2601')
+	applyColor(links, '#1a2601')
 }
 
 function handleNavigationBar (e) {
