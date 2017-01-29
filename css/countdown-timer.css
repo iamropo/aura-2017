@@ -1,9 +1,13 @@
 #timer {
+  display: none;
   min-width: 50%;
   height: 100%;
   display: inherit;
   justify-content: space-around;
   align-items: center;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  color: #df744a;
 }
 
 .block {
@@ -22,7 +26,7 @@
   margin: 0px 5px;
   height: 20px;
   width: 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid;
   border-radius: 50%;
   font-size: .8em;
 }

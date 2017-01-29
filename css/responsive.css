@@ -140,6 +140,7 @@
 }
 
 @media all and (min-width: 600px) and (min-height: 960px) {
+
 	h3 {
 		font-size: 1.5em;
 	}
@@ -256,6 +257,10 @@
 
 	#festival-title {
 		font-size: 7.4em;
+	}
+
+	#date {
+		font-size: 1.5em;
 	}
 
 	#current-year {
@@ -649,13 +654,21 @@
 /*Kindle Fire*/
 @media all and (min-width: 1600px) {
 
+	#main {
+		height: 60%;
+	}
+
 	nav > #menu {
 		width: 45%;
 		font-size: 2em;
 	}
 
 	#festival-title {
-		font-size: 20em;
+		font-size: 16em;
+	}
+
+	#date {
+		font-size: 2em;
 	}
 
 	#current-year {
