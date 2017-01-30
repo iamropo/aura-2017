@@ -45,4 +45,15 @@ jQuery(document).ready(function ($) {
         moveRight();
     });
 
+    window.addEventListener('keydown', function (event) {
+        var key = event.which || event.keyCode
+        if (document.querySelector('#slider-container').display !== 'none') {
+            if (key === 39) {
+                moveRight()
+            } else if (key === 37) {
+                moveLeft()
+            }
+        }
+    })
+
 });    
