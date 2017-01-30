@@ -14,6 +14,10 @@ body {
 /*	background-image: url('../images/milky-way-cut-dark.jpg');
 	background-attachment: 	fixed;
 	background-size: cover;*/
+	background-image: url(../images/galaxy.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 @font-face {
@@ -62,9 +66,8 @@ h3, h4 {
 	height: 100%;
 	position: relative;
 	color: #1a2601;	
-	background-color: #93bf34;
-	background-image: url(../downloads/arabesque.png);
-	background-repeat: repeat;
+/*	background-color: #93bf34;
+*/	
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -83,11 +86,13 @@ h3, h4 {
 	font-family: 'Elianto';
 	text-align: center;
 	position: relative;
+	color: #efefef;
 }
 
 #date {
 	font-weight: bold;
 	font-family: 'Ikaros Sans Light';
+	color: #efefef;
 }
 
 #scroll-indicator {
@@ -99,7 +104,7 @@ h3, h4 {
 }
 
 #scroll-indicator i {
-	color: #2c4001;
+	color: #efefef;
 	font-size: 2em;
 	position: relative;
 	animation: indicateScroll 1s linear infinite alternate;
@@ -114,6 +119,7 @@ h3, h4 {
 }
 
 #main img {
+	display: none;
 	position: absolute;
 }
 
@@ -130,8 +136,9 @@ nav {
 	left: 0;
 	display: flex;
 	justify-content: center;
-	background-color: #93bf34;
-	background-image: url(../downloads/arabesque.png);
+	background-color: rgba(0, 0, 0, 0.5);
+/*
+	background-image: url(../downloads/arabesque.png);*/
 	background-repeat: repeat;
 }
 
@@ -151,7 +158,7 @@ nav > #menu {
 }
 
 #menu a {
-	color: #1a2601;
+	color: #efefef;
 	font-weight: bold;
 }
 
@@ -167,7 +174,7 @@ nav > #menu {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	background-color: #cfe2dd;
+	background-color: transparent;
 	background-repeat: repeat;
 }
 
@@ -195,7 +202,7 @@ table {
 }
 
 .event {
-	color: 	#4c4c4c;
+	color: 	#efefef;
 	text-align: center;
 	font-size: .8em;
 }
@@ -215,7 +222,7 @@ table {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #bfd8d2;
+	background-color: transparent;
 
 }
 
@@ -273,7 +280,7 @@ table {
 /*---------------------Registration Form-------------*/
 #register {
 	width: 100%;
-	background-color: #bfd8d2;
+	background-color: transparent;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -313,8 +320,8 @@ table {
 	min-width: 10%;
 	float: right;
 	color: #ffffff;
-	background-color: #323232;
-	border: 1px solid #323232;
+	background-color: #df744a;
+	border: 1px solid #df744a;
 	border-radius: 2px;
 }
 
