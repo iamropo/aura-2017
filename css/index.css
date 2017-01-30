@@ -11,9 +11,6 @@ html, body {
 }
 
 body {
-/*	background-image: url('../images/milky-way-cut-dark.jpg');
-	background-attachment: 	fixed;
-	background-size: cover;*/
 	background-image: url(../images/galaxy.jpg);
 	background-position: center;
 	background-size: cover;
@@ -66,8 +63,9 @@ h3, h4 {
 	height: 100%;
 	position: relative;
 	color: #1a2601;	
-/*	background-color: #93bf34;
-*/	
+	background-color: rgba(0, 0, 0, 0.2);
+	background-image: url('../images/arabesque.png');
+	background-repeat: repeat;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -119,12 +117,12 @@ h3, h4 {
 }
 
 #main img {
-	display: none;
 	position: absolute;
+	width: 40px;
 }
 
-#sapling {
-	bottom: 0;
+#fruit-tree {
+	bottom: -40;
 } 
 
 nav {
@@ -136,9 +134,7 @@ nav {
 	left: 0;
 	display: flex;
 	justify-content: center;
-	background-color: rgba(0, 0, 0, 0.5);
-/*
-	background-image: url(../downloads/arabesque.png);*/
+	background-color: rgba(0, 0, 0, 0.8);
 	background-repeat: repeat;
 }
 

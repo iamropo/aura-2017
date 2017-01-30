@@ -1,40 +1,4 @@
 var navigationBar = document.querySelector('nav')
-var links = document.querySelectorAll('#menu a')
-
-// function applyColor (collection, color) {
-// 	Array.prototype.forEach.call(collection, function (element, index) {
-// 		element.style.color = color;
-// 	})
-// }
-
-// function styleOverMain () {
-// 	navigationBar.style.backgroundColor = '#cfe2dd'
-// 	navigationBar.style.backgroundImage = 'none'
-// 	navigationBar.style.borderBottom = '1px solid #abc2b2'
-// 	applyColor(links, '#df744a')	
-// }
-
-// function styleUnderMain () {
-// 	console.log('under')
-// 	navigationBar.style.backgroundColor = 'rgba(0, 0, 0, 0.2)'
-// 	navigationBar.style.borderBottom = 'none'
-// 	applyColor(links, '#ffffff')
-// }
-
-// function handleNavigationBar (e) {
-
-// 	var mainHeight = document.querySelector('#main').offsetHeight
-
-// 	if (window.scrollY >= mainHeight) {
-// 		styleOverMain()
-// 	} else if (window.scrollY <= mainHeight) {
-// 		styleUnderMain()
-// 	}
-
-// }
-
-// window.addEventListener('scroll', handleNavigationBar)
-// scrolling so that the section headings are visible
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
