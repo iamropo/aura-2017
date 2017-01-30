@@ -9,12 +9,14 @@ function applyColor (collection, color) {
 
 function styleOverMain () {
 	navigationBar.style.backgroundColor = '#bfd8d2'
+	navigationBar.style.backgroundImage = 'none'
 	navigationBar.style.borderBottom = '1px solid #abc2b2'
 	applyColor(links, '#df744a')	
 }
 
 function styleUnderMain () {
 	navigationBar.style.backgroundColor = '#a4bf69'
+	navigationBar.style.backgroundImage = "url(downloads/arabesque.png)"
 	navigationBar.style.borderBottom = 'none'
 	applyColor(links, '#1a2601')
 }

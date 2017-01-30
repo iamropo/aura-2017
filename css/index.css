@@ -63,7 +63,8 @@ h3, h4 {
 	position: relative;
 	color: #1a2601;	
 	background-color: #a4bf69;
-	background-size: cover;
+	background-image: url(../downloads/arabesque.png);
+	background-repeat: repeat;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -130,6 +131,8 @@ nav {
 	display: flex;
 	justify-content: center;
 	background-color: #a4bf69;
+	background-image: url(../downloads/arabesque.png);
+	background-repeat: repeat;
 }
 
 nav > #menu {
