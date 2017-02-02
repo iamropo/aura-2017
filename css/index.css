@@ -325,7 +325,15 @@ table {
 	color: #df744a;
 }
 
-#heels {
+#developer {
 	width: 100%;
-	background-color: #323232;
+	color: #efefef;
+	font-family: 'Ikaros Sans Light';
+	text-transform: uppercase;
+	text-align: center;
+	font-size: .5em;
+}
+
+#developer a {
+	color: #efefef;
 }
