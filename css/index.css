@@ -169,7 +169,6 @@ nav > #menu {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	position: relative;
 	background-color: transparent;
 	background-repeat: repeat;
 }
@@ -186,8 +185,8 @@ table {
 	width: 45%;
 	margin: 5px;
 	align-self: flex-start;
-	z-index: 	3;
-}
+/*	z-index: 	3;
+*/}
  
 .thead {
 	padding: 5px;
@@ -209,6 +208,9 @@ table {
 	font-weight: bold;
 }
 
+td {
+	cursor: pointer;
+}
 /*-----------------Gallery-------------------------*/
 #gallery {
 	width: 100%;
@@ -276,6 +278,7 @@ table {
 /*---------------------Registration Form-------------*/
 #register {
 	width: 100%;
+	margin-bottom: 20px;
 	background-color: transparent;
 	display: flex;
 	justify-content: center;

@@ -1,0 +1,79 @@
+#event-description {
+	display: none;
+	position: fixed;
+	width: 100%;
+	min-height: 100%;
+	padding: 0px 5%; 
+	color: #ffffff;
+	background-color: #000000;
+	left: 0;
+	top: 10%;
+	font-family: 'Ikaros Sans Light';
+	overflow-y: scroll;
+}
+
+.guidelines, .judging-criteria {
+	display: none;
+	font-size: .6em;
+}
+
+#close-events-description {
+	direction: rtl;
+	text-decoration: underline;
+	font-size: .6em;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+#notice {
+	font-weight: bold;
+}
+
+#about {
+	font-size: .6em;
+}
+
+#event-description h4, h5 {
+	margin:3px 0px;
+}
+
+@media all and (min-width: 360px) {
+	.guidelines, .judging-criteria,
+	#close-events-description,
+	#about
+	{
+		font-size: .7em;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.guidelines, .judging-criteria,
+	#close-events-description,
+	#about
+	{
+		font-size: .8em;
+	}
+}
+
+
+@media all and (min-width: 1280px) {
+	.guidelines, .judging-criteria,
+	#close-events-description,
+	#about
+	{
+		font-size: 1em;
+	}
+}
+
+@media all and (min-width: 1600px) {
+	.guidelines, .judging-criteria,
+	#close-events-description,
+	#about
+	{
+		font-size: 1.5em;
+	}
+}
+

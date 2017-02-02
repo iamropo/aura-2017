@@ -3,7 +3,7 @@ footer {
 	width: 100%;
 	background-color: transparent;
 	color: #df744a;
-	padding: 10px 5%;
+	padding: 15px 5%;
 
 	font-size: .6em;
 	font-weight: bold;
@@ -11,7 +11,7 @@ footer {
 
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	line-height: 1.5em;
 	text-transform: uppercase;		
 }

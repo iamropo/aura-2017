@@ -8,6 +8,7 @@
 	<link rel="icon" href="images/logo.png" type="image/png">
 	<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon"> 
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/events.css">
 	<link rel="stylesheet" href="css/slider.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/responsive.css">
@@ -35,8 +36,8 @@
 	<ul id="menu">
 		<li><a href="#main">Home</a></li>
 		<li><a href="#events">Events</a></li>
-		<li><a href="#gallery">Highlights</a></li>
-		<li><a href="#register">Register</a></li>
+<!-- 		<li><a href="#gallery">Highlights</a></li>
+ -->		<li><a href="#register">Register</a></li>
 		<li><a href="#contact">Contact</a></li>
 	</ul>
 </nav>
@@ -47,48 +48,225 @@
 
 	<table class="event-category">
 		<tr><td class="thead">CULTURALS</td></tr>
-		<tr><td class="event">Battle of the Bands</td></tr>
-		<tr><td class="event">Beat Boxing</td></tr>
-		<tr><td class="event">Fashion Show</td></tr>
-		<tr><td class="event">Mad Ads</td></tr>
-		<tr><td class="event">Mime</td></tr>
-		<tr><td class="event">Solo &amp; Group Dance</td></tr>
-		<tr><td class="event">Solo Singing</td></tr>
+		
+		<tr><td class="event culturals" id="bob">Battle of the Bands</td></tr>
+		<tr><td class="event culturals" id="bb">Beat Boxing</td></tr>
+		<tr><td class="event culturals" id="fs">Fashion Show</td></tr>
+		<tr><td class="event culturals" id="gd">Group Dance</td></tr>
+		<tr><td class="event culturals" id="ma">Mad Ads</td></tr>
+		<tr><td class="event culturals" id="mm">Mime</td></tr>
+		<tr><td class="event culturals" id="sd">Solo Dance</td></tr>
+		<tr><td class="event culturals" id="ss">Solo Singing</td></tr>
 	</table>
 	
 	<table class="event-category">
 		<tr><td class="thead">OPEN EVENTS</td></tr>
-		<tr><td class="event">Arm Wrestling</td></tr>
-		<tr><td class="event">Face Painting</td></tr>
-		<tr><td class="event">Find X</td></tr>
-		<tr><td class="event">Hogathon</td></tr>
-		<tr><td class="event">Just A Minute</td></tr>
-		<tr><td class="event">Stand Up Comedy</td></tr>
-		<tr><td class="event">Tattoo Making</td></tr>
+		<tr><td class="event open" id="aw">Arm Wrestling</td></tr>
+		<tr><td class="event open" id="fp">Face Painting</td></tr>
+		<tr><td class="event open" id="fx">Find X</td></tr>
+		<tr><td class="event open" id="ht">Hogathon</td></tr>
+		<tr><td class="event open" id="jm">Just A Minute</td></tr>
+		<tr><td class="event open" id="tm">Tattoo Making</td></tr>
 	</table>
 
 	<table class="event-category">
-		<tr><td class="thead">MANAGEMENT</td></tr>
-		<tr><td class="event">Best Manager</td></tr>
-		<tr><td class="event">Brand Race</td></tr>
-		<tr><td class="event">Business Quiz</td></tr>
-		<tr><td class="event">Finance</td></tr>
-		<tr><td class="event">Human Resource</td></tr>
-		<tr><td class="event">Marketing</td></tr>
+		<tr><td class="thead" >MANAGEMENT</td></tr>
+		<tr><td class="event management" id="bm">Best Manager</td></tr>
+		<tr><td class="event management" id="br">Brand Race</td></tr>
+		<tr><td class="event management" id="bq">Business Quiz</td></tr>
+		<tr><td class="event management" id="fn">Finance</td></tr>
+		<tr><td class="event management" id="hr">Human Resource</td></tr>
+		<tr><td class="event management" id="mk">Marketing</td></tr>
 	</table>
 
 
 	<table class="event-category">
-		<tr><td class="thead">I.T &amp; JOURNALISM</td></tr>
-		<tr><td class="event">Cosplay</td></tr>
-		<tr><td class="event">Debugging</td></tr>
-		<tr><td class="event">Launchpad</td></tr>
-		<tr><td class="event">Photo Journalism</td></tr>
-		<tr><td class="event">Story Telling</td></tr>
-		<tr><td class="event">Web Designing</td></tr>
+		<tr><td class="thead" >I.T &amp; JOURNALISM</td></tr>
+		<tr><td class="event it-journalism" id="cp">Cosplay</td></tr>
+		<tr><td class="event it-journalism" id="db">Debugging</td></tr>
+		<tr><td class="event it-journalism" id="lp">Launchpad</td></tr>
+		<tr><td class="event it-journalism" id="pj">Photo Journalism</td></tr>
+		<tr><td class="event it-journalism" id="st">Story Telling</td></tr>
+		<tr><td class="event it-journalism" id="wd">Web Designing</td></tr>
 	</table>
 
 </div>
+
+<div id="event-description">
+
+	<div id="close-events-description">Close</div>
+
+	<h4 id="event"></h4>
+
+	<p id="about">
+	</p>
+
+	<div id="notice"></div>
+	
+	<h5 class="guidelines" id="guidelines-header">Guidelines:</h5>
+	
+	<ul class="guidelines" id="guidelines">
+	</ul>
+	
+	<h5 class="judging-criteria" id="judging-criteria-header">Judging Criteria:</h5>
+	
+	<ul class="judging-criteria" id="judging-criteria">
+	</ul>
+
+</div>
+
+<!--
+	cause i am lazy right now:
+-->
+<ul class="hidden" id="bob-gl">
+	<li>The maximum time allowed to each band is 25 minutes including sound check.</li>
+	<li>The size of band should not exceed 6 musicians.</li>
+	<li>No pre-recorded Music or sample sound is allowed.</li>
+	<li>The contestants are strictly advised not to disclose the name of their College/ Institution to the Jury members/audience while introducing themselves on the stage.</li>
+	<li>Organizing committee shall not provide any instruments/accompanists.</li>
+	<li>The contestant may opt for a suitable dress code</li>
+	<li>The decision of Judges will be final and binding.</li>
+	<li>The rules and regulations for the preliminary and final round shall remain the same.</li>
+	<li>In case participants exceed the time limit Judges will be free to disqualify the participant.</li>
+</ul>
+
+<ul class="hidden" id="bob-jc">
+	<li>Musical Cntent (This criteria is based on clarity, lyrical content and overall musical performance) 1-10</li>
+	<li>Stage Presence and Crowd Interaction 1-5</li>
+	<li>Appearance and Personality 1-5</li>
+	<li>Crowd Response 1-20</li>
+</ul>
+
+<ul class="hidden" id="fs-gl">
+	<li>Time allotted: 8+1 minutes</li>
+	<li>No of participants  : 8-12</li>
+	<li>Anything that promotes obscenity is banned</li> 
+	<li>Exceeding time limit will result to negative marking of the group.</li> 
+	<li>Participants should confirm registration 30 minutes prior to event.</li>
+	<li>Participants should bring their respective college id cards.</li>
+</ul>
+
+<ul class="hidden" id="fs-jc">
+	<li>Choreography.</li>
+	<li>Music.</li>
+	<li>Co-ordination.</li> 
+	<li>Relevance to the theme.</li>
+	<li>Sequence and walk.</li>
+	<li>Confidence and gesture of the model.</li>
+</ul>
+
+<ul class="hidden" id="gd-gl">
+	<li>Time limit is minutes for each performance.</li>  
+	<li>Negative marking for exceeding the time limit.</li>
+	<li>Each team may have  members, including coordinators.</li>
+	<li>The participants are requested to bring two CDs to avoid technical disturbance. Out of which, they are also requested to submit one CD with the coordinator of the event.</li>
+	<li>No props will be provided by the coordinators.</li> 
+	<li>Participants should bring their own props.</li>
+	<li>Dance performance should not convey any indecent gestures.</li>
+	<li>Green room would be given for changing purpose.</li>
+	<li>The participants will be judged on the basis of their rhythm, formation, synchronization, expressions, and costumes, makeup, setup and overall effects.</li>
+	<li>Decision of the judges will be final and binding.</li>
+</ul>
+
+<ul class="hidden" id="sd-gl">
+	<li>Time limit is 3-5 minutes. Negative points for exceeding the time limit.</li>
+	<li>The participants are requested to bring two CDs to avoid technical disturbance. Out of which, they are also requested to submit one CD to the coordinator of the event.</li>
+	<li>No extra time shall be given for installing CDs. It should be done prior to the event.</li>
+	<li>The participants will be judged on their costumes, visual presentation and dance form.</li>
+	<li>There is no particular theme.</li>
+	<li>Participants should get their own props. All props must be specified to the event coordinator.</li>
+	<li>Lighting of matchsticks, candles and cigarettes or any derogatory acts are strictly not allowed on stage.</li>
+	<li>Choice of song is open to the participants.</li>
+	<li>Any obscene/offensive music/song is not allowed.</li>
+	<li>The decision of Judges will be final and binding</li>
+</ul>
+
+<ul class="hidden" id="ss-gl">
+	<li>Time allotted is 5 minutes</li>
+	<li>Maximum of one instrument a musician is allowed.</li>
+	<li>Exceeding time limit will result to negative marking of the group.</li>
+	<li>Participants should confirm registration 30 minutes prior to event. </li>
+	<li>Participants should bring their respective college ID cards.</li>
+</ul>
+
+<ul class="hidden" id="ss-jc">
+	<li>Vocal ranges</li> 
+	<li>Rhythm</li>
+	<li>Stage presence</li>
+	<li>Voice modulation</li>
+	<li>Overall performance</li> 
+</ul>
+
+<ul class="hidden" id="ma-gl">
+	<li>Participants will have to produce a advertisement for a product in a proper way which is quite appealing to audience.</li>
+	<li>Number of Participants in a team: 5-8 members</li>
+	<li>Time allowed to present your ad will be 4 minutes</li>
+	<li>The ad prepared by the contestant must not contain any obscene words/any subject that hurt the feelings of a culture/language/religion/region</li>
+	<li>Judging is done on the basis of team’s originality, humour and stage presence and usage of props given.</li>
+	<li>Negative marking for any disobedience of rules.</li>
+</ul>
+
+<ul class="hidden" id="mm-gl">
+	<li>Group event(Each Group consisting of 4-10 members).</li>
+	<li>Time limit 5 minute.</li>
+	<li>No vulgarity in any term.</li>
+	<li>Participants should handover music in pen drive to organisers one hour before the event.</li>
+</ul>
+
+<ul class="hidden" id="fx-gl">
+	<li>Each team can have only two participants.</li>
+	<li>Participants should carry their college id card.</li>
+	<li>Event will be having various rounds.</li>
+	<li>After starting point there will be different check points.</li>
+	<li>At each check point you will be provided with a clue to find the next check point.</li>
+	<li>At each check point there will be a filtration process based on time taken for completion of task by the team.</li>
+	<li>Co-ordinator decision is final.</li>
+</ul>
+
+<ul class="hidden" id="fp-gl">
+	<li>Each team can have only two participants.</li>
+	<li>Participants must paint based on topic given on spot.</li>
+	<li>Other materials must be brought by the participants.</li>
+	<li>Duration 1 hour</li>
+</ul>
+
+<ul class="hidden" id="jm-gl">
+<li>Individual event</li>
+<li>There will be a preliminary round followed by the finals</li>
+<li>Rules for each round should be announced during the event</li>
+<li>Judges decision will be final and binding.</li> 
+</ul>
+
+<ul class="hidden" id="tm-gl">
+	<li>Participants will be given the theme for tattoo design on the spot.</li>
+	<li>Team Composition: Only 2 participants per team.</li>
+	<li>No limits on teams per institute. Both the members of the team have to be from the same college.</li>
+	<li>1 person as the subject on whom the tattoo is painted, 1 person to paint the tattoo.</li>
+	<li>Spot registrations are allowed.</li>
+	<li>There is only one round. Event duration is 1.5 hours.</li>
+	<li>Participants should bring their own requirements.</li>
+</ul>
+
+<ul class="hidden" id="aw-gl">
+	<li>One foot must always be in contact with the floor.</li>
+	<li>Non pulling hand should be in contact with the peg.</li>
+	<li>Competitors must set their competing elbow on the elbow pad, square their shoulders and present an open hand.</li>
+	<li>Judges decision will be final and binding.</li>
+</ul>
+
+<ul class="hidden" id="st-gl">
+	<li>2 days event.</li>
+	<li>Interview a personality and post the video.</li>
+</ul>
+
+<ul class="hidden" id="pj-gl">
+	<li>The participant must elaborate on his/her vision of the moment.</li>
+	<li>On spot open event.</li>
+	<li>Conceptual journalism based on photography.</li>
+</ul>
+
+<!---->
+
 <!-- SLIDER -->
 <div id="slider-container">
 	<div id="control">
@@ -110,7 +288,7 @@
 	  </ul>  
 	</div>
 </div>
-
+<!--
 <div class="margined-section" id="gallery">
 	
 	<h3>Highlights</h3>
@@ -157,15 +335,11 @@
 		<div><img src="images/final-14/9.jpg" alt=""></div>
 	</div>
 </div>
+-->
 <!-- REGISTRATION FORM -->
 <div class="margined-section" id="register">	
 	<h3>Register</h3>
-	<form action="">
-		<span>Name<input type="text" required="required"></span>
-		<span>College<input type="text" required="required"></span>
-		<span>Event<input type="text"></span>
-		<button>Submit</button>
-	</form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0uL8Twi4BbyebkbVob7xGF_VDLpBb2qiWHROQKFNKkUUNOw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
 
 <!-- <div class="margined-section" id="sponsors-and-partners">
@@ -235,12 +409,11 @@
 	</div>
 	<div id="contact">
 		<ul>
-			
 			<li>Contacts:</li>
-			
 			<li class="phone-number">Siddarth: +91-7406682809</li>
-		 	<li class="phone-number">Khusboo: +91-9066308979</li>
-		 	<li class="phone-number">Rahil: +91-9591904834</li>
+			<li class="phone-number">Khusboo: +91-9066308979</li>
+			<li class="phone-number">Rahil: +91-9591904834</li>
+			<!--  <li class="phone-number"></li> -->
 
 			<li id="social-links">
 				<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -252,9 +425,23 @@
 </footer>
 
 <script src="js/navigation-bar.js"></script>
+<script src="js/events.js"></script>
+<!--
 <script src="js/gallery-toggle.js"></script>
 <script src="js/slide-manager.js"></script>
-<script src="js/slider.js"></script>
+<script src="js/slider.js"></script>-->
+
+<style>
+ iframe {
+	width: 60%;
+ }
+ 
+ @media all and (max-width: 480px) {
+  iframe {
+		width: 100%;
+  }
+ }
+</style>
 
 </body>
 </html>
