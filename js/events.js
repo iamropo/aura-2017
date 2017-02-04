@@ -139,45 +139,45 @@ document.querySelector('#close-events-description').addEventListener('click', fu
 })
 
 function loadeventDescription (event, id) {
+	if (event) {
+		eventDescription.style.display = 'block'	
+		eventDescription.querySelector('h4').innerText = document.querySelector('#' + id).innerText
+		
+		if (event.notice) {
+			eventDescription.querySelector('#notice').style.display = 'block'
+			eventDescription.querySelector('#notice').innerText = event.notice
+		} else {
+			eventDescription.querySelector('#notice').style.display = 'none'
+		}
 
-	eventDescription.style.display = 'block'	
-	eventDescription.querySelector('h4').innerText = document.querySelector('#' + id).innerText
-	
-	if (event.notice) {
-		eventDescription.querySelector('#notice').style.display = 'block'
-		eventDescription.querySelector('#notice').innerText = event.notice
-	} else {
-		eventDescription.querySelector('#notice').style.display = 'none'
-	}
+		if (event.about) {
+			eventDescription.querySelector('#about').style.display = 'block'		
+			eventDescription.querySelector('#about').innerText = event.about 
+		} else {
+			eventDescription.querySelector('#about').style.display = 'none'
+		}
 
-	if (event.about) {
-		eventDescription.querySelector('#about').style.display = 'block'		
-		eventDescription.querySelector('#about').innerText = event.about 
-	} else {
-		eventDescription.querySelector('#about').style.display = 'none'
+		if (event.notice) {
+			eventDescription.querySelector('#notice').style.display = 'block'
+			eventDescription.querySelector('#notice').innerText = event.notice
+		} else {
+			eventDescription.querySelector('#notice').style.display = 'none'		
+		}
+		
+		if (event.gl) {
+			displayCollection(eventDescription.querySelectorAll('.guidelines'))
+			eventDescription.querySelector('#guidelines').innerHTML = document.querySelector(event.gl).innerHTML 		
+		} else {
+			hideCollection(eventDescription.querySelectorAll('.guidelines'))
+		}
+		
+		if (event.jc) {
+			displayCollection(eventDescription.querySelectorAll('.judging-criteria'))
+			eventDescription.querySelector('#judging-criteria').innerHTML = document.querySelector(event.jc).innerHTML 	
+		} else {
+			hideCollection(eventDescription.querySelectorAll('.judging-criteria'))
+		}
 	}
-
-	if (event.notice) {
-		eventDescription.querySelector('#notice').style.display = 'block'
-		eventDescription.querySelector('#notice').innerText = event.notice
-	} else {
-		eventDescription.querySelector('#notice').style.display = 'none'		
-	}
-	
-	if (event.gl) {
-		displayCollection(eventDescription.querySelectorAll('.guidelines'))
-		eventDescription.querySelector('#guidelines').innerHTML = document.querySelector(event.gl).innerHTML 		
-	} else {
-		hideCollection(eventDescription.querySelectorAll('.guidelines'))
-	}
-	
-	if (event.jc) {
-		displayCollection(eventDescription.querySelectorAll('.judging-criteria'))
-		eventDescription.querySelector('#judging-criteria').innerHTML = document.querySelector(event.jc).innerHTML 	
-	} else {
-		hideCollection(eventDescription.querySelectorAll('.judging-criteria'))
-	}
-
 }
 
 
